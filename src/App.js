@@ -33,8 +33,16 @@ class App extends Component {
             temp: data.main.temp,
             city: data.name,
             country: data.sys.country,
-            error: ""
+            error: undefined
         });
+    } else {
+        this.setState({
+            temp: undefined,
+            city: undefined,
+            country: undefined,
+            error: "Введите название города"
+        });
+
     }
   }
 
