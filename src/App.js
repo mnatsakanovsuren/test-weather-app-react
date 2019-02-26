@@ -40,7 +40,7 @@ class App extends Component {
             temp: undefined,
             city: undefined,
             country: undefined,
-            error: "Введите название города"
+            error: "Enter the name of the city"
         });
 
     }
